@@ -33,7 +33,7 @@ app.post('/numbers/operation', (req, res)=>{
             let operation = number.operation
 
             if(operation === "add"){
-                // return arithmetic.add(value1,value2 );
+                
                 let totaladd = arithmetic.add(value1,value2 );
                 console.log(totaladd)
             }
